@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func onTap(_ sender: Any) {
         
-       
+       //tried adding part here
     }
     
     @IBAction func calculateTip(_ sender: Any) {
