@@ -20,7 +20,7 @@ class ViewController: UIViewController {
        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.title = "Tip Calculator"
     }
 
     @IBAction func onTap(_ sender: Any) {
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         tipPercentageLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String (format:"%.2f",total)
     }
+    
    
 }
 
